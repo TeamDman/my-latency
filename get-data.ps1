@@ -1,0 +1,1 @@
+ping -n 9999 8.8.8.8 | % { Write-Host "$(Get-Date) $_" }
